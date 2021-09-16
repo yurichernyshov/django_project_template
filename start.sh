@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -p 8080:8080 test:v1
+docker run -p 8888:8888 test:v1

@@ -1,0 +1,21 @@
+<html>
+
+	<h1>Это форма для просмотра всяких данных</h1>
+
+	<form method="post">
+	{% csrf_token %}
+
+		<label for="number">ID</label>
+
+		<div>
+			<input type="text" name="number" placeholder="Input NUMBER" value="HELLO"></input>
+		</div>
+
+
+		<div> 
+			<button type="submit">Submit</button>
+		</div>
+	</form>
+
+</html>
+
